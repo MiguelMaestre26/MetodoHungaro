@@ -1,0 +1,33 @@
+# Variables de entorno con secretos (NO subir .env)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Empaquetado
+build/
+dist/
+*.spec
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Registros
+*.log
+
+
+
